@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@moonrepo/cli": "^1.15.4"
+	}
+}
