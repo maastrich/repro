@@ -1,0 +1,29 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  acorn:
+    specifier: ^8.11.2
+    version: 8.11.2
+  acorn-typescript:
+    specifier: ^1.4.10
+    version: 1.4.10(acorn@8.11.2)
+
+packages:
+
+  /acorn-typescript@1.4.10(acorn@8.11.2):
+    resolution: {integrity: sha512-f+gNIxCaTc9WVe5W6Fgu35UnTmtEOCZlsYf/ZADFIUAS2LL1UnBa1gmS/EYPvT4bo8R2ikw7VG62VGP/CFLQ5Q==}
+    peerDependencies:
+      acorn: '>=8.9.0'
+    dependencies:
+      acorn: 8.11.2
+    dev: false
+
+  /acorn@8.11.2:
+    resolution: {integrity: sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: false
